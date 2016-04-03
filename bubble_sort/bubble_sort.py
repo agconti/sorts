@@ -2,10 +2,10 @@
 
 def bubble_sort(items):
     number_of_sweeps_left = len(items) - 1
-    while number_of_sweeps_left > 0:
-        # one sweep
-        for index, item in enumerate(items):
 
+    while number_of_sweeps_left > 0:
+
+        for index, item in enumerate(items):
             if index >= number_of_sweeps_left:
                 break
 
