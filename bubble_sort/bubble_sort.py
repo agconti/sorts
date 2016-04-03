@@ -1,5 +1,6 @@
 # https://youtu.be/P00xJgWzz2c?list=PLAB1DA9F452D9466C
 
+
 def bubble_sort(items):
     number_of_sweeps_left = len(items) - 1
 
