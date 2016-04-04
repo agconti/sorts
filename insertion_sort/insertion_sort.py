@@ -32,7 +32,6 @@ def sort(item, sorted_items):
         swap(next_item, sorted_item, i, sorted_items)
 
 
-
 def swap(left_item, right_item, index, items):
         items[index] = left_item
         items[index - 1] = right_item
