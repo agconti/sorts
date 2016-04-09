@@ -27,7 +27,6 @@ class TestMergeSort(unittest.TestCase):
 
     def test_merge_sort_correctly_sorts(self):
         sorted_values = merge_sort(self.unsorted_values)
-        print (sorted(self.unsorted_values)), sorted_values
         self.assertEqual(sorted(self.unsorted_values), sorted_values)
 
 if __name__ == '__main__':
