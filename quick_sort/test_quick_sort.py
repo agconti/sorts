@@ -3,7 +3,7 @@ from random import random
 from quick_sort import quick_sort, select_pivot, swap, partition, sort
 
 
-class TestMergeSort(unittest.TestCase):
+class TestQuickSort(unittest.TestCase):
 
     def setUp(self):
         self.unsorted_values = [random() for i in range(5)]
