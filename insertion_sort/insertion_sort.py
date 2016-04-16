@@ -1,5 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # https://youtu.be/c4BRHC7kTaQ?list=PLAB1DA9F452D9466C
 # http://visualgo.net/sorting.html
+# swap:
+# h(n) = c + c
+# o(1), theta(1), omega(1)
+# sort:
+# g(n) = c + c + c + n x c x c x c x c x c x h(n)
+# o(n), theta(n), omega(1)
+# insertion_sort:
+# f(n) = c + n x g(n)
+# o(n^2), theta(n^2), omega(n)
 
 
 def insertion_sort(items):
