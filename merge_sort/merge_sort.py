@@ -1,6 +1,11 @@
 # https://youtu.be/GCae1WNvnZM?list=PLAB1DA9F452D9466C
 # http://visualgo.net/sorting.html
-
+# merge:
+# g(n) = c + c + c + c + n x c x c x c x c
+# o(n log(n)), theta(n log(n)), omega(n log(n))
+# merge_sort:
+# f(n) = c + c + n x (1 / 2) + n x (1 / 2) + g(n x (1/2)) + g(n x (1/2))
+# o(n log(n)), theta(n log(n)), omega(n log(n))
 
 def merge_sort(items):
     if len(items) == 1:
